@@ -1,0 +1,40 @@
+.three-column-grid{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+  
+}
+
+.travel-column{
+  display: flex;
+  align-items: center;
+  width: 350px;
+  padding: 16px 30px;
+  box-shadow: 0 2px 20px 0 rgb(0 0 0 / 10%);
+  border-radius: 10px;
+  background-color: white;
+}
+
+.travel-column img{
+  padding-right: 10px;
+}
+
+.travel-column p{
+  margin: 0;
+  padding-right: 0;
+  color: #4a4a4a;
+}
+
+.travel-column span{
+  color: #008cff;
+}
+
+.travel-column img{
+  width: 60px;
+}
+
+
+

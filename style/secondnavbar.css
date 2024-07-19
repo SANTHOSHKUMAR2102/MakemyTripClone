@@ -1,0 +1,54 @@
+.second-nav-bar{
+  position: fixed;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 180px;
+  left: 180px;
+  top: 70px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 0;
+  width: 928px;
+  height: 100px;
+  z-index: 10;
+  box-shadow: 0 2px 20px 0 rgb(0 0 0 / 10%);
+  color: #4a4a4a;
+}
+
+.second-nav-bar ul{
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: space-between;
+  width: 868px;
+  height: 81px;
+  line-height: 12px;
+  margin: 0 20px;
+}
+
+.icon-box{
+  width: 52px;
+  height: 40px;
+}
+
+.second-nav-bar img{
+  width: 60px;
+  height: 43px;
+  margin: 0;
+  padding: 0;
+}
+
+.name-flight, .name-hotel{
+  padding-top: 6px;
+}
+
+.second-nav-bar p{
+  text-align: center;
+  font-size: 14px;
+  margin-top: 5px;
+  width: 72px;
+  height: 37px;
+  margin-bottom: 0;
+  line-height: 17px;
+}

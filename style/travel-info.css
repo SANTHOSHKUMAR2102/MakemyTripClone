@@ -1,0 +1,165 @@
+.travel-info{
+  background-color: white;
+  border-radius: 10px;
+  
+  width: 1200px;
+  position: absolute;
+  right: 50px;
+  left: 50px;
+  top: 120px;
+  
+}
+
+.travel-angle-icon{
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #008cff;;
+}
+
+/* top section */
+
+.top-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 55px 0 0 0;
+  font-size: 14px;
+  color: #4a4a4a;
+  margin:  10px 30px 0 30px ;
+}
+
+.top-section-right input,label{
+  margin: 0 5px;
+}
+
+
+/* middle section */
+
+
+.middle-section-conatiner{
+  padding: 11px 0;
+  margin: 0;
+}
+
+.middle-section {
+  display: flex;
+  margin: 0 0 0 10px;
+  padding: 10px 19px;
+  display: -webkit-box;
+}
+
+.middle-section .title{
+  margin: 0 0 10px 0;
+  font-size: 14px;
+}
+
+
+.middle-section p,h1{
+  margin: 0;
+  padding-left: 20px;
+}
+
+h1 span{
+  font-size: 20px;
+}
+
+
+.from-box{
+  border: solid 1px #e7e7e7;
+  border-radius: 10px 0 0 10px;
+  width: 300px;
+  height: 112px;
+}
+
+.to-box {
+  border: solid #e7e7e7;
+  border-width: 1px 1px 1px 0;
+  width: 300px;
+  height: 112px;
+  margin: 0 0 0 -18px;
+  padding: 0 0 0 40px;
+}
+
+.departure-box {
+  border: solid #e7e7e7;
+  border-width: 1px 1px 1px 0;
+  width: 158px;
+  height: 112px;
+}
+
+.month {
+  font-size: 20px;
+}
+
+.return-box {
+  border: solid #e7e7e7;
+  border-width: 1px 1px 1px 0;
+  width: 158px; 
+  height: 112px;
+}
+
+.return-box .detail{
+  font-size: 12px;
+  font-weight: bold;
+  color: grey;
+}
+
+.traveller-box {
+  border: solid #e7e7e7;
+  border-width: 1px 1px 1px 0;
+  width: 214px; 
+  height: 112px;
+  border-radius: 0 10px 10px 0 ;
+}
+
+.detail {
+  font-size: 14px;
+}
+
+/* bottom section */
+
+.bottom-section{
+  display: flex;
+  gap: 8px;
+  margin-left: 30px;
+}
+
+.fareCardItem{
+  display: flex;
+  border: solid 1px rgb(216,216,216);
+  border-radius: 10px;
+  padding: 8px 12px 12px;
+
+}
+
+
+
+
+.cardTitle {
+  font-size: 14px;
+  font-weight: bold;
+  color: #4a4a4a;
+}
+
+.fareLine {
+  font-size: 12px;
+  color: #757575;
+}
+
+.bottom-headline{
+  font-size: 14px;
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
+.extra-savings{
+  background-image: linear-gradient(45deg, rgb(134, 125, 125), rgb(26, 150, 159));
+  border-radius: 5px;
+  padding: 3px;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  width: 112px;
+}

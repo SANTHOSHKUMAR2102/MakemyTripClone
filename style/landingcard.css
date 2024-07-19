@@ -1,0 +1,128 @@
+.landingCard li {
+  list-style: none;
+  font-size: 14px;
+  color: #4a4a4a;
+  padding: 10px 0 5px;
+}
+
+.landingCard{
+  background-color: white;
+  padding: 25px 40px 40px;
+  box-shadow: 0 2px 20px 0 rgb(0 0 0 / 10%);
+  border-radius: 10px;
+  margin: 20px 40px;
+}
+
+.landingCard-nav-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.landing-view-btn{
+  color: #008CFF;
+  font-weight: 900;
+  margin-right: 80px;
+}
+
+.landing-view-btn span{
+  margin-right: 20px;
+  font-size: 16px;
+}
+
+.landingCard-nav{
+  display: flex;
+  align-items: center;
+}
+
+font{
+  font-size: 32px;
+  color: rgb(57, 57, 57);
+  font-weight: 900;
+}
+
+.landingCard-nav-list{
+  gap: 35px;
+  border: solid rgb(151, 151, 151);
+  border-width: 0 0 1px 0;
+  padding-left: 0;
+  margin-left: 30px;
+}
+
+/* slide items */
+
+.slideItems{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.slideItem-box{
+  display: flex;
+  margin-bottom: 20px;
+  flex-direction: column;
+  padding: 10px;
+  box-shadow: 0 2px 20px 0 rgb(0 0 0 / 20%);
+  border-radius: 10px;
+}
+
+.flight-thumbnail{
+  display: flex;
+  width: 460px;
+}
+
+.flightimage img{
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.flight-info{
+  margin: 0;
+  width: 100%;
+}
+
+.topLine{
+  font-size: 12px;
+  color: #4a4a4a;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.flight-thumbnail h3{
+  margin-top: 0;
+  font-weight: 900;
+}
+
+.flight-thumbnail p{
+  font-size: 14px;
+  color: #4a4a4a;
+}
+
+.book-now{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  color: #4a4a4a;
+  font-size: 14px;
+}
+
+.book-btn span{
+  color: #008CFF;
+  margin-left: 68px;
+  font-weight: 700;
+}
+
+.book-now p{
+  margin: 0;
+}
+
+
+
+.firstBooking{
+  color: #008CFF;
+  border-style: solid;
+  border-width: 0 0 2px 0;
+  padding-bottom: 3px;
+  font-weight: 900;
+}

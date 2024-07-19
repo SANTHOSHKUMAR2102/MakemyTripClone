@@ -1,0 +1,91 @@
+.app-detail-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 20px 40px;
+  margin: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px 0 rgb(0 0 0 / 10%);
+}
+
+.app-headline{
+  display: flex;
+  align-items: center;
+}
+
+.app-headline img{
+  width: 60px;
+  padding-right: 20px;
+}
+
+.app-headline h3{
+  font-size: 32px;
+  font-weight: 900;
+  margin: 0;
+}
+
+.app-headline p{
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.call-detail{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 12px;
+}
+
+.call-detail img{
+  width: 25px;
+  
+}
+
+.call-nation{
+  display: flex;
+  align-items: center;
+  background-color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-style: solid;
+  border-width: 1px 0 1px 1px;
+  border-color: #c1c1c1;
+  border-radius: 3px 0 0 3px;
+  padding: 9px;
+}
+
+.input-number{
+  border-style: solid;
+  border-width: 1px 1px 1px 0;
+  border-color: #c1c1c1;
+  padding: 11px;
+  width: 250px;
+}
+
+.app-btn{
+  padding: 10px 22px 9px 22px;
+  background-color: white;
+  color: #008cff;
+  border-color: #008cff;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 0 3px 3px 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.app-platform img{
+  width: 150px;
+  margin: 0;
+}
+
+.downloading-detail{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.QR-img{
+  width: 120px;
+}
